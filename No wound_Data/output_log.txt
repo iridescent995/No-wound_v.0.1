@@ -1,0 +1,44 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   10.18.15.4279
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.083 seconds
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.184175 ms
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\Boo.Lang.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3408 -> priority: 1 
+Platform assembly: H:\Unity\New folder\No wound fps game\No wound_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.String cacheKeyName, System.Type[] cacheKeyTypes, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.GetDispatcher (System.Object target, System.Object[] args, System.String cacheKeyName, Boo.Lang.Runtime.DynamicDispatching.DispatcherFactory factory) [0x00000] in <filename unknown>:0 
+  at Boo.Lang.Runtime.RuntimeServices.Invoke (System.Object target, System.String name, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityScript.Lang.UnityRuntimeServices.Invoke (System.Object target, System.String name, System.Object[] args, System.Type scriptBaseType) [0x00000] in <filename unknown>:0 
+  at AmmoPickup.OnTriggerEnter (UnityEngine.Collider col) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
