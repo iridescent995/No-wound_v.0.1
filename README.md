@@ -15,3 +15,4 @@ No wound v.0.1 includes:
     -Destroying a stationary target
     
 3. Gun options like M4 Carbine rifle.
+4. Points on hitting a target.
